@@ -1,0 +1,98 @@
+@import url("NOVO_PROJETO/header.css");
+@import url("NOVO_PROJETO/banner.css");
+@import url("NOVO_PROJETO/carrossel.css");
+@import url("NOVO_PROJETO/topicos.css");
+@import url("NOVO_PROJETO/contato.css");
+@import url("NOVO_PROJETO/rodapé.css");
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+      border-left: 1px solid var(--cinza);
+      padding-left: 1em;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista-rodapé_item {
+        display: flex;
+        align-items: center;
+    }
+    .lista-rodapé_link {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+    .lista-rodapé_item {
+        margin: 0.6em 0;
+    }
+    .lista-rodapé_titulo {
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+    .rodapé_titulo {
+        font-size: 24px;
+    }
+    .lista-rodapé {
+        display: block;
+    }
+}
+
+.lista-rodapé {
+    display: none;
+}
+
+
+
+hr {
+    margin: 0;
+}
+
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
